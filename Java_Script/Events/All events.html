@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+Decimal<input type="text" id="myInput" onmouseover="fun()" height="50px" width="50px">
+<select id="1" onchange="fun4()">
+<option value="red">Red</option>
+<option value="blue">Blue</option>
+</select>
+<input type="button" value="change" onclick="fun6()">
+
+Dollar<input type="text" id="3" oninput="fun5()" >
+Rs<input type="text" id="4">
+<p id="demo"></p>
+<table>
+<tr id="5"> 
+<td id="6" onmouseover="fun1()" onmouseout="fun7()" style=background-color:red>RED</td>
+<td id="6" onmouseover="fun2()" onmouseout="fun7()" style=background-color:black>BLACK</td> 
+<td id="6" onmouseover="fun3()" onmouseout="fun7()" style=background-color:blue>BLUE</td> 
+</tr>
+</table>
+<script>
+function fun1()
+{
+document.body.style.backgroundColor="red"
+}
+function fun2()
+{
+document.body.style.backgroundColor="black"
+}
+function fun3()
+{
+document.body.style.backgroundColor="blue"
+}
+function fun()
+{
+document.getElementById("myInput").style.height="100px"
+document.getElementById("myInput").style.width="100px"
+}
+
+function fun4()
+{
+a=document.getElementById("1").value;
+document.body.style.backgroundColor=a;
+}
+
+function fun5()
+{
+a=document.getElementById("3").value;
+document.getElementById("4").value=a*65;
+}
+function fun6()
+{
+document.getElementById("myInput").style.height="50px"
+document.getElementById("myInput").style.width="50px"
+}
+
+function fun7()
+{
+document.body.style.backgroundColor="white"
+}
+</script>
+
+</body>
+</html>

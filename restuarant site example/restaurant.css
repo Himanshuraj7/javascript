@@ -1,0 +1,144 @@
+
+.Header
+{
+	text-align:center;
+	font-size:50px;
+	padding:10px;
+	padding-bottom: 30px;
+	background-color:darkred;
+	height:40px;
+	color:green;
+	font-weight: bold;
+}
+.footer
+{
+font-size:20px;
+  color:aliceblue;
+  float:right;
+  margin-top:175px; 
+  background-color:darkolivegreen; 
+  height:50px;
+}
+.module1
+{
+  background-color:white;
+	width: 200px;
+	height:10px;
+}
+a
+{
+	text-decoration: none;
+	color:red;
+}
+.restaurantdata
+{
+	color:darkslateblue;
+	font-size:20px;
+	width:30%;
+  padding-left:30px;
+	margin-left: 350px;
+  margin-top: -10px;
+}
+
+
+
+#cmain .contactforum
+{
+	margin-left:400px;
+	margin-right: 400px;
+}
+
+#user_reviews h1
+{
+  text-align:center;
+  font-size:50px;
+  color:violet;
+}
+#user_details
+{
+  float:right;
+  margin:50px;
+  width:60%;
+  border:5px solid lightsteelblue;
+  border-radius:20px;
+  
+}
+#user_details #user_img img
+{
+  width:5%;
+  float:left;
+}
+#user_details #user_name
+{
+  font-family:Tahoma ;
+  font-weight: bold;
+  color:gray;
+  padding:10px;
+}
+#user_details #prod_name
+{
+  padding-left:10%;
+  color:blueviolet;
+  font-size: 20px;
+}
+#user_details #user_typed 
+{
+  padding-top:20px;
+  padding-left:80px;
+  font-size: 30px;
+}
+div.image
+{
+	width:1000px;
+	height: 100px;
+	margin:100px 300px;
+}
+div.image img
+{
+  width:400px;
+	height: 200px;
+	padding:10px;
+	float:left;
+}
+
+#post_reviews 
+{
+  width: 60%;
+  float:right;
+}
+#post_reviews h3
+{
+  color:brown;
+  background-color: yellowgreen;
+  width:65%;
+  font-size: 30px;
+  word-spacing: 1cm;
+  text-transform: uppercase;
+  padding:20px;
+}
+#post_reviews h4
+{
+  color:brown;
+  font-size: 20px;
+  word-spacing: 5px;
+}
+#post_reviews textarea
+{
+  width:400px;
+}
+#post_reviews input[type=button]
+{
+  background-color: greenyellow;
+  color:blue;
+  font-weight: bold;
+  font-family:Tahoma;
+  padding:10px;
+  margin-left:80px;
+}
+#post_reviews input[type=button]:hover
+{
+  background-color: blue;
+  color:white;
+  cursor: pointer;
+}
+

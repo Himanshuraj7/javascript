@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FEEDBACK</title>
+<link rel="stylesheet" href="restaurant.css" type="text/css">
+<style>
+.heading
+{
+	text-align:center;
+	font-size:50px;
+	padding:10px;
+	padding-bottom: 30px;
+	background-color:darkred;
+	height:40px;
+	color:lightcoral;
+	font-weight: bold;
+}
+</style>
+</head>
+
+<div class="heading">
+FOOD PANDA
+</div>
+
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:lightsalmon;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+
+
+ul#nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 180px;
+    background-color:peru;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+</style>
+ </head>
+ <body background="desert.png" no-repeat>
+
+<ul>
+  <li><a href="p.html">HOME</a></li>
+  <li><a href="cont.html">CONTACT US</a></li>
+ 
+</ul>
+ 
+
+
+
+ 	<div id="user_reviews">
+		<h1>User Reviews</h1>
+		<div id="post_reviews">
+			<h2>Post a new review </h2>
+			<h4>Enter Your Name(or User Name):</h4>
+			<input id="users_name" type="text" placeholder="********" required />
+			<br />
+			<h4>Enter Restaurant Name:</h4>
+			<input id="prods_name" type="text" placeholder="*********" size="60" required /> 
+			<br />
+			<h4>Your Reviews About Food:</h4>
+			<textarea id="users_typed" size="10"> </textarea>
+			<h4>Ratings:</h4>
+			<br />
+			<input type="radio" id="user_rating1" name="user_rating" onclick="post_rating('user_rating1');" value="1" name="rating">1</input>
+			<input type="radio" id="user_rating2" name="user_rating" onclick="post_rating('user_rating2');" value="2" name="rating">2</input>
+			<input type="radio" id="user_rating3" name="user_rating" onclick="post_rating('user_rating3');" value="3" name="rating">3</input>
+			<input type="radio" id="user_rating4" name="user_rating" onclick="post_rating('user_rating4');" value="4" name="rating">4</input>
+			<input type="radio" id="user_rating5" name="user_rating" onclick="post_rating('user_rating5');" value="5" name="rating">5</input>
+			<br />
+			<br />
+			<input type="button" onclick="post_name('users_name'); post_pname('prods_name'); post_typed('users_typed');" id="submit" value="POST">
+			
+		</div>
+		
+</body>
+</html>

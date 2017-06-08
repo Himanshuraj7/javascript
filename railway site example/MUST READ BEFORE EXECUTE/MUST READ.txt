@@ -1,0 +1,27 @@
+
+IMPORTANT NOTE:  DO NOT DELETE OR REMOVE ANY IMAGE IN THIS FILE.
+                 OTHERWISE PROJECT WILL NOT WORK PROPERLY.
+
+1. TO START PROJECT : OPEN p1.html first and then make reservtions.
+
+2.PAGE IDENTIFICATION:
+
+     p1.html (LOGIN PAGE).
+
+     p2.html (HOME PAGE).
+
+     p3.html (TRAIN SCEHEDULE TABLE PAGE).
+
+     p4.html (CLASS AVALABILITY TABLES(3) PAGE).
+
+     p5.html (BOOKING TABLE PAGE).
+
+     p6.html ( CANCELLATION FORM PAGE).
+
+     p7.html (BILLING FORM PAGE). 
+
+     ipic.html (DEFAULT IFRAME PAGE). 
+
+     book.html (BOOKED STATUS PAGE).
+
+     cancelpic.html (CANCELLED STATUS PAGE).     
